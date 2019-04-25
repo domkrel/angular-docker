@@ -1,3 +1,3 @@
 FROM buildkite/puppeteer
 
-RUN apk update && apk add -y git
+RUN apt-get update && apt-get install -y git
